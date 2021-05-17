@@ -26,6 +26,14 @@ input {
   color: white;
   border: none;
   outline: none;
+  
+}
+
+input {
+  -webkit-user-select: text; /* Chrome, Opera, Safari */
+  -moz-user-select: text; /* Firefox 2+ */
+  -ms-user-select: text; /* IE 10+ */
+  user-select: text; 
 }
 input:focus {
   border: none;
